@@ -14,3 +14,171 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+.containerGeneral{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContent{
+  width: 98%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-template-rows: 200px 50px auto 50px 500px 50px 200px;
+  grid-template-areas: 
+                        "fila11 fila12"
+                        "fila21 fila22"
+                        "fila31 fila32"
+                        "fila41 fila42"
+                        "fila51 fila52"
+                        "fila51 fila62"
+                        "fila51 fila72";
+
+}
+
+.areaFila11{
+  grid-area: fila11;
+  background-color: rgb(58, 57, 57);
+  padding: 2rem;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.areaFila21{
+  grid-area: fila21;
+  background-color: rgb(25, 173, 124);
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.areaFila31{
+  grid-area: fila31;
+  padding: 2rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.areaFila41{
+  grid-area: fila41;
+  background-color: rgb(25, 173, 124);
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaFila51{
+  grid-area: fila51;
+  padding: 4rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.areaFila51Experiencia{
+  line-height: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+
+
+.areaFila12{
+  grid-area: fila12;
+  background-color: rgb(25, 173, 124);
+  padding: 2rem;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaFila22{
+  grid-area: fila22;
+  background-color: rgb(58, 57, 57);
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.areaFila32{
+  grid-area: fila32;
+  padding: 1rem;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.areaFila42{
+  grid-area: fila42;
+  background-color: rgb(58, 57, 57);
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.areaFila52{
+  grid-area: fila52;
+  padding: 1rem;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaFila62{
+  grid-area: fila62;
+  background-color: rgb(58, 57, 57);
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.areaFila72{
+  grid-area: fila72;
+  padding: 2rem;
+  font-size: 1rem;
+  display: inline-block;
+
+
+}
+.areaFilaInline{
+  width: 100%;
+  height: 100%;
+  line-height: 1rem;
+  margin: 0.8rem;
+
+}
