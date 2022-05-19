@@ -54,7 +54,7 @@ Chatterbot en lenguaje python para tiempo real.
                   instancia AWS que el BackEnd
                 </p>
 
-
+                <h4>Online</h4>
                 <a href='https://frontbot-avielad.vercel.app/'>https://frontbot-avielad.vercel.app/</a>
 
               </div>
@@ -71,6 +71,9 @@ Chatterbot en lenguaje python para tiempo real.
                   FrontEnd iniciado en NextJS
                   Despliegue AWS EC2 mediante container Docker Linux.
                 </p>
+
+                <h4>Online</h4>
+                <a href=''></a>
               </div>
 
               <div className='areaFila51Experiencia'>
@@ -86,6 +89,9 @@ Chatterbot en lenguaje python para tiempo real.
                 <p>Aplicando HTML5 JS y CSS se construyeron ejercicios ejemplificando
                   caracteristicas fundamentales del desarrollo web
                 </p>
+
+                <h4>Online</h4>
+                <a href='https://avielad.github.io/webB4example/'>https://avielad.github.io/webB4example/</a>
               </div>
 
           </div>
